@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#internal/*": "./internal/*.mjs"
+  },
+  "scripts": {
+    "test": "uvu challenges '.test.mjs$'"
+  },
+  "engines": {
+    "node": ">=16.8.0"
+  },
+  "dependencies": {
+    "redis": "^4.2.0",
+    "uvu": "^0.5.3",
+    "weak-map": "^1.0.8"
+  }
+}
